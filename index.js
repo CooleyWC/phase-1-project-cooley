@@ -1,3 +1,4 @@
+const percInstContainer = document.getElementById('instrument-container')
 
 document.addEventListener('DOMContentLoaded', (e)=>{
     fetch('http://localhost:3000/percussionInstruments', {
@@ -9,14 +10,27 @@ document.addEventListener('DOMContentLoaded', (e)=>{
     })
     .then(res=>res.json())
     .then(percInvData=>{
-      // console.log(percInvData);
-      processData(percInvData)
+      processData(percInvData);
       
     })
   }
   )
   
-  function processData(data){
-    console.log(data)
+  function processData(percInvData){
+    percInvData.forEach((element)=>{
+        const percInstCard = document.createElement('div');
+        percInstCard.setAttribute('class', 'card');
+        
+        const instName = document.createElement('h3');
+        instName.textContent = element.name;
+
+        const instBrand = document.createElement('p');
+        instBrand.textContent = `Brand: ${element.brand}`;
+        
+        percInstCard.append(instName, instBrand)
+        percInstContainer.append(percInstCard)
+  
+    })
+    // console.log(data)
     
   }

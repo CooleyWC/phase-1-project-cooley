@@ -10,7 +10,14 @@
             "color": "Black",
             "notes": "Carbon-Fiber shell",
             "condition": "excellent",
-            "image": "url"
+            "image": "url",
+            "price": {
+                "forSale": "No",
+                "salePrice": 500,
+                "forRent": "Yes",
+                "rentSingleDay": 25,
+                "rentPerMonth": 75
+            }
         },
         {
             "id": 2,
@@ -22,7 +29,14 @@
             "color": "Maple",
             "notes": "Replaced coil wire with guitar string",
             "condition": "excellent",
-            "image": "url"
+            "image": "url",
+            "price": {
+                "forSale": "No",
+                "salePrice": 500,
+                "forRent": "Yes",
+                "rentSingleDay": 25,
+                "rentPerMonth": 75
+            }
         },
         {
             "id": 3,
@@ -34,7 +48,14 @@
             "color": "N/A",
             "notes": "Medium Heavy",
             "condition": "excellent",
-            "image": "url"
+            "image": "url",
+            "price": {
+                "forSale": "Yes",
+                "salePrice": 400,
+                "forRent": "Yes",
+                "rentSingleDay": 20,
+                "rentPerMonth": 60
+            }
         },
         {
             "id": 4,
@@ -46,7 +67,14 @@
             "color": "N/A",
             "notes": "Replaced head",
             "condition": "good",
-            "image": "url"
+            "image": "url",
+            "price": {
+                "forSale": "Yes",
+                "salePrice": 80,
+                "forRent": "Yes",
+                "rentSingleDay": 15,
+                "rentPerMonth": 45
+            }
         },
         {
             "id": 5,
@@ -58,7 +86,14 @@
             "color": "N/A",
             "notes": "",
             "condition": "excellent",
-            "image": "url"
+            "image": "url",
+            "price": {
+                "forSale": "Yes",
+                "salePrice": 75,
+                "forRent": "Yes",
+                "rentSingleDay": 10,
+                "rentPerMonth": 40
+            }
         }
     ]
 }
