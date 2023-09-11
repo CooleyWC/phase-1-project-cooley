@@ -45,7 +45,6 @@ function handleClearAllBtn(){
   let cardsOnPage = document.querySelectorAll('.card');
   for(let i = 0; i<cardsOnPage.length; i++){
     let element = cardsOnPage[i];
-    console.log(element)
     element.remove();
   }
 }
@@ -56,7 +55,6 @@ function renderPercItem(array){
 
         const percInstCard = document.createElement('div');
         percInstCard.setAttribute('class', 'card');
-        // percInstCard.setAttribute('class', 'hidden');
         
         const instName = document.createElement('h3');
         instName.textContent = element.name;
@@ -70,7 +68,10 @@ function renderPercItem(array){
         const instColor = document.createElement('p');
         instColor.textContent =  `Color: ${element.color}`;
 
-        percInstCard.append(instName, instBrand, instSize, instColor)
+        const instDesc = document.createElement('p');
+        instDesc.textContent =  `Description: ${element.description}`;
+
+        percInstCard.append(instName, instBrand, instSize, instColor, instDesc)
         percInstContainer.append(percInstCard)
   
     })

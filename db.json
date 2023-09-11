@@ -10,6 +10,7 @@
             "color": "Black",
             "notes": "Carbon-Fiber shell",
             "condition": "excellent",
+            "description": "Discontinued Snare Drum featuring a carbon-fiber shell. Features an aggresive snare response and sounds almost like a marching snare drum.",
             "image": "url",
             "price": {
                 "forSale": "No",
@@ -29,6 +30,7 @@
             "color": "Maple",
             "notes": "Replaced coil wire with guitar string",
             "condition": "excellent",
+            "description": "This Pearl Philharmonic Concert Snare Drum features an 8-ply 7.2mm 100% Maple shell delivering the power to be heard, with a dark, full tonal response that has become the preferred sound of orchestras and artists around the world. The drum is outfitted with a SR505 Triad Silent Strainer and customized wrap around snare assemblies. The hardware configuration includes the nickel plated strainer, classic tube lugs, with MasterCast Die-Cast hoops with a nickel finish. - from steveweissmusic.com",
             "image": "url",
             "price": {
                 "forSale": "No",
@@ -48,6 +50,7 @@
             "color": "N/A",
             "notes": "Medium Heavy",
             "condition": "excellent",
+            "description": "With a heavier weight, this pairing is more articulate and focused, providing a longer sustain.",
             "image": "url",
             "price": {
                 "forSale": "Yes",
@@ -67,6 +70,7 @@
             "color": "N/A",
             "notes": "Replaced head",
             "condition": "good",
+            "description": "Black Swamp 10\" Double Row Tambourine with German Silver Jingles is a good general purpose tambourine. Each tambourine jingle is hand-hammered and custom fitted to each tambourine for a full and dynamically versatile sound. Each Black Swamp tambourine has a distinctive timbre, allowing players to always have the right sound at their fingertips for any musical situation. The solid, steam-bent Ash shell, which is stained, lacquered, and polished to display the natural beauty of the wood. Solid wood shells enable Black Swamp tambourines to project with great clarity at every dynamic. Captive jingle pins are mounted from the top of the tambourine shell, guaranteeing that jingles can never fall out. Dual-size jingle slots make seamless shake rolls easy. - from steveweissmusic",
             "image": "url",
             "price": {
                 "forSale": "Yes",
@@ -86,6 +90,7 @@
             "color": "N/A",
             "notes": "",
             "condition": "excellent",
+            "description": "The Alan Abel 6\" Symphonic Triangle has a crisp, clean attack, and beautiful overtones. The Symphonic Triangle is perfect for all around playing.",
             "image": "url",
             "price": {
                 "forSale": "Yes",
