@@ -71,7 +71,11 @@ function renderPercItem(array){
         const instDesc = document.createElement('p');
         instDesc.textContent =  `Description: ${element.description}`;
 
-        percInstCard.append(instName, instBrand, instSize, instColor, instDesc)
+        const instImg = document.createElement('img');
+        instImg.setAttribute('class', 'cardImg');
+        instImg.src = `${element.image}`;
+
+        percInstCard.append(instName, instBrand, instSize, instColor, instDesc, instImg)
         percInstContainer.append(percInstCard)
   
     })

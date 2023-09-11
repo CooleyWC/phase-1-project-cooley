@@ -33,3 +33,8 @@
 #newSizeInput {
     width:175px
 }
+
+.cardImg {
+    height: 150px;
+    width: 150px;
+}
