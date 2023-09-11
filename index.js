@@ -1,10 +1,16 @@
+//global variables, functions, and event listeners
 getPercData();
 const percInstContainer = document.getElementById('instrument-container');
 const copyOfPercData = [];
 const displayAllBtn = document.getElementById('displayAllBtn');
 displayAllBtn.addEventListener('click', function (e){
-  handleAllBtn(copyOfPercData)
-})
+  handleDisplayAllBtn(copyOfPercData)
+});
+const clearAllBtn = document.getElementById('clearAllBtn');
+clearAllBtn.addEventListener('click', function (e){
+  handleClearAllBtn();
+});
+
 
 //fetch - get data from the server
 function getPercData(){
@@ -30,8 +36,18 @@ function makeCopyOfData(percInvData){
 }
 
 //display All Function
-function handleAllBtn(array){
+function handleDisplayAllBtn(array){
   renderPercItem(array)
+}
+
+//clear All Function
+function handleClearAllBtn(){
+  let cardsOnPage = document.querySelectorAll('.card');
+  for(let i = 0; i<cardsOnPage.length; i++){
+    let element = cardsOnPage[i];
+    console.log(element)
+    element.remove();
+  }
 }
 
 //render items to page
@@ -40,6 +56,7 @@ function renderPercItem(array){
 
         const percInstCard = document.createElement('div');
         percInstCard.setAttribute('class', 'card');
+        // percInstCard.setAttribute('class', 'hidden');
         
         const instName = document.createElement('h3');
         instName.textContent = element.name;
