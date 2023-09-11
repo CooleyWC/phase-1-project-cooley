@@ -11,18 +11,23 @@
         </header>
         <div class="display-selection">
             <h3 id="displayTitle">Select Items</h3>
+            <button id="displayAllBtn">Display All Instruments</button>
         </div>
         <div class="newInstFormContainer">
             <form class="perc-form">
                 <h3 id="formTitle">Add New Instrument</h3>
-                <p id="formSubtitle">add a new instrument to the inventory </p>
+                <p id="formSubtitle">- add a new instrument to the inventory <br> - write "N/A" if not category not applicable</p>
                 <div class="percFormName">
                     <label for="name">Name</label>
-                    <input type="'text" name="name" id="newNameInput" placeholder="enter new instrument name" required/>
+                    <input type="'text" name="newName" id="newNameInput" placeholder="enter new instrument name" required/>
                 </div>
                 <div class="percFormBrand">
                     <label for='brand'>Brand</label>
-                    <input type="'text" name="brand" id="newBrandInput" placeholder="enter new instrument brand" required/>
+                    <input type="'text" name="newBrand" id="newBrandInput" placeholder="enter new instrument brand" required/>
+                </div>
+                <div class="percFormSize">
+                    <label for='size'>Size</label>
+                    <input type="'text" name="newSize" id="newSizeInput" placeholder="enter new instrument size" required/>
                 </div>
 
 

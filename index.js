@@ -1,6 +1,12 @@
 getPercData();
 const percInstContainer = document.getElementById('instrument-container');
+const copyOfPercData = [];
+const displayAllBtn = document.getElementById('displayAllBtn');
+displayAllBtn.addEventListener('click', function (e){
+  handleAllBtn(copyOfPercData)
+})
 
+//fetch - get data from the server
 function getPercData(){
     fetch('http://localhost:3000/percussionInstruments', {
       method: 'GET',
@@ -11,15 +17,26 @@ function getPercData(){
     })
     .then(res=>res.json())
     .then(percInvData=>{
-      // console.log(percInvData)
-      processData(percInvData);
+      makeCopyOfData(percInvData);
       
     })
   }
 
+//make a copy of all the data  
+function makeCopyOfData(percInvData){
+  percInvData.forEach((element)=>{
+    copyOfPercData.push(element);
+  })
+}
 
-  function processData(percInvData){
-    percInvData.forEach((element)=>{
+//display All Function
+function handleAllBtn(array){
+  renderPercItem(array)
+}
+
+//render items to page
+function renderPercItem(array){
+    array.forEach((element)=>{
 
         const percInstCard = document.createElement('div');
         percInstCard.setAttribute('class', 'card');
@@ -36,11 +53,7 @@ function getPercData(){
         const instColor = document.createElement('p');
         instColor.textContent =  `Color: ${element.color}`;
 
-        
-        
         percInstCard.append(instName, instBrand, instSize, instColor)
-        console.log(percInstCard)
-        console.log(percInstContainer)
         percInstContainer.append(percInstCard)
   
     })
