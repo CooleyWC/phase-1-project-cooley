@@ -22,19 +22,15 @@
     text-align: center;
 }
 
-#newNameInput {
-    width:175px
-}
-
-#newBrandInput {
-    width:175px
-}
-
-#newSizeInput {
-    width:175px
+input {
+    width: 175px;
 }
 
 .cardImg {
     height: 150px;
     width: 150px;
+}
+
+label {
+    display: block;
 }
