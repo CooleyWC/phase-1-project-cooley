@@ -13,7 +13,7 @@
             <h3 class="displayTitle">Select Items</h3>
             <button id="displayAllBtn">Display All Instruments</button>
             <div id="dropDownContainer">
-                <label for="categorySelect">Filter Instruments by Category</label>
+                <label id="categorySelect" for="categorySelect">Filter Instruments by Category</label>
                 <select class="instrument-dropdown" name="selectInstrumnet">
                     <option value="">--Select A Category--</option>
                     <option value="drums">Drums</option>
@@ -26,7 +26,6 @@
         <div class="newInstFormContainer">
             <form class="perc-form">
                 <h3 class="formTitle">Add New Instrument</h3>
-                <p id="formSubtitle">- add a new instrument to the inventory</p>
                 <div class="percFormName">
                     <label for="name">Name</label>
                     <input type="text" name="newName" id="newNameInput" placeholder="enter new instrument name" required/>
