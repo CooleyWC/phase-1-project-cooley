@@ -39,3 +39,11 @@ label {
     height: 50px;
     width: 725px;
 }
+
+.bannerTitle {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.displayTitle, .formTitle {
+    font-family: Arial, Helvetica, sans-serif;
+}

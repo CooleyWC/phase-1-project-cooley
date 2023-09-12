@@ -38,7 +38,7 @@ function getPercData(){
     .then(percInvData=>{
       makeCopyOfData(percInvData);
     })
-    .catch(error=>console.log(error))
+    // .catch(error=>console.log(error))
   }
 
 //make a copy of all the data  
@@ -57,10 +57,10 @@ function handleDisplayAllBtn(array){
 //drownDown Function
 function handleDropDown(array, category){
   handleClearAll();
+  console.log(array)
   const selectedPercItems = array.filter((element)=>{
     return element.category.toLowerCase() === category;
   })
-  console.log(selectedPercItems);
   renderPercItem(selectedPercItems);
 };
 
@@ -74,8 +74,17 @@ function handleClearAll(){
 }
 
 function handleForm(e){
+
+  let lastPercObj = copyOfPercData[copyOfPercData.length -1];
+  let lastPercObjId = lastPercObj.id
+  console.log(lastPercObjId)
+  let newId = lastPercObjId + 1;
+  console.log(newId)
+
   let newPercObj = {
+    id: newId,
     name: e.target.newName.value,
+    category: e.target.addDropDown.value,
     brand: e.target.newBrand.value,
     model: e.target.newModel.value,
     size: e.target.newSize.value,
@@ -84,7 +93,8 @@ function handleForm(e){
     image: e.target.newImage.value,
   }
   renderPercItem([newPercObj]);
-  saveNewInst([newPercObj]);
+  saveNewInst(newPercObj);
+  copyOfPercData.push(newPercObj);
 }
 
 
@@ -97,6 +107,9 @@ function renderPercItem(array){
         
         const instName = document.createElement('h3');
         instName.textContent = element.name;
+
+        const instCategory = document.createElement('p');
+        instCategory.textContent = `Category: ${element.category}`;
 
         const instBrand = document.createElement('p');
         instBrand.textContent = `Brand: ${element.brand}`;
@@ -117,21 +130,21 @@ function renderPercItem(array){
         instImg.setAttribute('class', 'cardImg');
         instImg.src = `${element.image}`;
 
-        percInstCard.append(instName, instBrand, instModel, instSize, instColor, instDesc, instImg)
+        percInstCard.append(instName, instCategory, instBrand, instModel, instSize, instColor, instDesc, instImg)
         percInstContainer.append(percInstCard)
     })
   }
 
-  function saveNewInst(array){
+  function saveNewInst(newPercObj){
     fetch('http://localhost:3000/percussionInstruments', {
       method: "POST",
       headers: {
         "Content-type": "application/json",
         "Accept": "application/json"
       },
-      body: JSON.stringify(array)
+      body: JSON.stringify(newPercObj)
     })
     .then(res=>res.json())
     .then(updatedData=>console.log(updatedData))
-    .catch(error=>console.log(error))
+    // .catch(error=>console.error(error))
   }
