@@ -100,6 +100,28 @@
       "color": "red",
       "description": "w",
       "image": "https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/26745_55960_popup.jpg"
+    },
+    {
+      "id": 7,
+      "name": "marimba",
+      "category": "drums",
+      "brand": "pearl",
+      "model": "z3",
+      "size": "3",
+      "color": "red",
+      "description": "w",
+      "image": "https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/26745_55960_popup.jpg"
+    },
+    {
+      "id": 8,
+      "name": "w",
+      "category": "drums",
+      "brand": "w",
+      "model": "w",
+      "size": "3",
+      "color": "w",
+      "description": "w",
+      "image": "https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/26745_55960_popup.jpg"
     }
   ]
 }

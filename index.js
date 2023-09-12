@@ -38,7 +38,7 @@ function getPercData(){
     .then(percInvData=>{
       makeCopyOfData(percInvData);
     })
-    // .catch(error=>console.log(error))
+    .catch(error=>console.log('Error:', error))
   }
 
 //make a copy of all the data  
@@ -77,9 +77,8 @@ function handleForm(e){
 
   let lastPercObj = copyOfPercData[copyOfPercData.length -1];
   let lastPercObjId = lastPercObj.id
-  console.log(lastPercObjId)
   let newId = lastPercObjId + 1;
-  console.log(newId)
+
 
   let newPercObj = {
     id: newId,
@@ -146,5 +145,5 @@ function renderPercItem(array){
     })
     .then(res=>res.json())
     .then(updatedData=>console.log(updatedData))
-    // .catch(error=>console.error(error))
+    .catch(error=>console.log('Error:', error))
   }
