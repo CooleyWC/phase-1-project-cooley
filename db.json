@@ -92,36 +92,36 @@
     },
     {
       "id": 6,
-      "name": "w",
+      "name": "toms",
       "category": "drums",
-      "brand": "pearl",
-      "model": "w",
-      "size": "3",
+      "brand": "yamaha",
+      "model": "concert",
+      "size": "10",
       "color": "red",
-      "description": "w",
-      "image": "https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/26745_55960_popup.jpg"
+      "description": "concert toms",
+      "image": "https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/27056_26532_popup.jpg"
     },
     {
       "id": 7,
-      "name": "marimba",
+      "name": "toms",
       "category": "drums",
-      "brand": "pearl",
-      "model": "z3",
-      "size": "3",
+      "brand": "yamaha",
+      "model": "concert",
+      "size": "10",
       "color": "red",
-      "description": "w",
-      "image": "https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/26745_55960_popup.jpg"
+      "description": "toms",
+      "image": "https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/27056_26532_popup.jpg"
     },
     {
       "id": 8,
-      "name": "w",
+      "name": "toms",
       "category": "drums",
-      "brand": "w",
-      "model": "w",
-      "size": "3",
-      "color": "w",
-      "description": "w",
-      "image": "https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/26745_55960_popup.jpg"
+      "brand": "yamaha",
+      "model": "concert",
+      "size": "15",
+      "color": "red",
+      "description": "drums",
+      "image": "https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/27056_26532_popup.jpg"
     }
   ]
 }

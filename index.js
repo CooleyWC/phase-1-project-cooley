@@ -1,4 +1,4 @@
-//global variables, functions, and event listeners
+
 getPercData();
 const percInstContainer = document.getElementById('instrument-container');
 const copyOfPercData = [];
@@ -25,7 +25,6 @@ newInstForm.addEventListener('submit', function (e){
 })
 
 
-//fetch - get data from the server
 function getPercData(){
     fetch('http://localhost:3000/percussionInstruments', {
       method: 'GET',
@@ -41,30 +40,30 @@ function getPercData(){
     .catch(error=>console.log('Error:', error))
   }
 
-//make a copy of all the data  
+
 function makeCopyOfData(percInvData){
   percInvData.forEach((element)=>{
     copyOfPercData.push(element);
   })
 }
 
-//display All Function
+
 function handleDisplayAllBtn(array){
   handleClearAll();
-  renderPercItem(array)
+  renderPercItem(array);
 }
 
-//drownDown Function
+
 function handleDropDown(array, category){
   handleClearAll();
-  console.log(array)
+  console.log(array);
   const selectedPercItems = array.filter((element)=>{
     return element.category.toLowerCase() === category;
   })
   renderPercItem(selectedPercItems);
 };
 
-//clear All Function
+
 function handleClearAll(){
   let cardsOnPage = document.querySelectorAll('.card');
   for(let i = 0; i<cardsOnPage.length; i++){
@@ -73,12 +72,12 @@ function handleClearAll(){
   }
 }
 
+
 function handleForm(e){
 
   let lastPercObj = copyOfPercData[copyOfPercData.length -1];
   let lastPercObjId = lastPercObj.id
   let newId = lastPercObjId + 1;
-
 
   let newPercObj = {
     id: newId,
@@ -97,7 +96,7 @@ function handleForm(e){
 }
 
 
-//render items to page
+
 function renderPercItem(array){
     array.forEach((element)=>{
 
@@ -133,6 +132,7 @@ function renderPercItem(array){
         percInstContainer.append(percInstCard)
     })
   }
+
 
   function saveNewInst(newPercObj){
     fetch('http://localhost:3000/percussionInstruments', {
