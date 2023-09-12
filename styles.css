@@ -36,7 +36,7 @@
 }
 
 input {
-    width: 190px;
+    width: 100%;
 }
 
 .cardImg {
@@ -50,7 +50,7 @@ label {
 
 .submitBtn {
     height: 50px;
-    width: 200px;
+    width: 100%;
 }
 
 .displayTitle, .formTitle, label, p, .bannerTitle {
@@ -60,4 +60,11 @@ label {
 
 .displayTitle, .formTitle {
     font-size: 30px;
+    text-align: center;
+}
+
+#displayAllBtn, #clearAllBtn, #newDescInput {
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
 }
