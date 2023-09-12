@@ -1,104 +1,115 @@
 {
-    "percussionInstruments": [
-        {
-            "id": 1,
-            "category": "Drums",
-            "name": "Snare Drum",
-            "brand": "Black Swamp",
-            "model": "Carbon-Fiber",
-            "size": "14x6\"",
-            "color": "Black",
-            "notes": "Carbon-Fiber shell",
-            "condition": "excellent",
-            "image": "./images/404.jpg",
-            "description": "Discontinued Snare Drum featuring a carbon-fiber shell. Features an aggresive snare response and sounds almost like a marching snare drum.",
-            "price": {
-                "forSale": "No",
-                "salePrice": 500,
-                "forRent": "Yes",
-                "rentSingleDay": 25,
-                "rentPerMonth": 75
-            }
-        },
-        {
-            "id": 2,
-            "category": "Drums",
-            "name": "Snare Drum",
-            "brand": "Pearl",
-            "model": "Philharmonic",
-            "size": "14x5\"",
-            "color": "Maple",
-            "notes": "Replaced coil wire with guitar string",
-            "condition": "excellent",
-            "description": "This Pearl Philharmonic Concert Snare Drum features an 8-ply 7.2mm 100% Maple shell delivering the power to be heard, with a dark, full tonal response that has become the preferred sound of orchestras and artists around the world. The drum is outfitted with a SR505 Triad Silent Strainer and customized wrap around snare assemblies. The hardware configuration includes the nickel plated strainer, classic tube lugs, with MasterCast Die-Cast hoops with a nickel finish. - from steveweissmusic.com",
-            "image": "./images/pearl-phil-snare.jpg",
-            "price": {
-                "forSale": "No",
-                "salePrice": 500,
-                "forRent": "Yes",
-                "rentSingleDay": 25,
-                "rentPerMonth": 75
-            }
-        },
-        {
-            "id": 3,
-            "category": "Cymbals",
-            "name": "Hand Cymbals",
-            "brand": "Sabian",
-            "model": "Artisan Med-Heavy",
-            "size": "18\"",
-            "color": "N/A",
-            "notes": "Medium Heavy",
-            "condition": "excellent",
-            "description": "With a heavier weight, this pairing is more articulate and focused, providing a longer sustain.",
-            "image": "./images/404.jpg",
-            "price": {
-                "forSale": "Yes",
-                "salePrice": 400,
-                "forRent": "Yes",
-                "rentSingleDay": 20,
-                "rentPerMonth": 60
-            }
-        },
-        {
-            "id": 4,
-            "category": "Accessories",
-            "name": "Tambourine",
-            "brand": "Black Swamp",
-            "model": "German Silver - Calf Head",
-            "size": "10\"",
-            "color": "N/A",
-            "notes": "Replaced head",
-            "condition": "good",
-            "description": "Black Swamp 10\" Double Row Tambourine with German Silver Jingles is a good general purpose tambourine. Each tambourine jingle is hand-hammered and custom fitted to each tambourine for a full and dynamically versatile sound. Each Black Swamp tambourine has a distinctive timbre, allowing players to always have the right sound at their fingertips for any musical situation. The solid, steam-bent Ash shell, which is stained, lacquered, and polished to display the natural beauty of the wood. Solid wood shells enable Black Swamp tambourines to project with great clarity at every dynamic. Captive jingle pins are mounted from the top of the tambourine shell, guaranteeing that jingles can never fall out. Dual-size jingle slots make seamless shake rolls easy. - from steveweissmusic",
-            "image": "./images/backswamptambo-gsilver.webp",
-            "price": {
-                "forSale": "Yes",
-                "salePrice": 80,
-                "forRent": "Yes",
-                "rentSingleDay": 15,
-                "rentPerMonth": 45
-            }
-        },
-        {
-            "id": 5,
-            "category": "Accessories",
-            "name": "Triangle",
-            "brand": "Alan Abel",
-            "model": "Symphonic",
-            "size": "6\"",
-            "color": "N/A",
-            "notes": "",
-            "condition": "excellent",
-            "description": "The Alan Abel 6\" Symphonic Triangle has a crisp, clean attack, and beautiful overtones. The Symphonic Triangle is perfect for all around playing.",
-            "image": "./images/abel-triangle.jpg",
-            "price": {
-                "forSale": "Yes",
-                "salePrice": 75,
-                "forRent": "Yes",
-                "rentSingleDay": 10,
-                "rentPerMonth": 40
-            }
-        }
+  "percussionInstruments": [
+    {
+      "id": 1,
+      "category": "Drums",
+      "name": "Snare Drum",
+      "brand": "Black Swamp",
+      "model": "Carbon-Fiber",
+      "size": "14x6\"",
+      "color": "Black",
+      "notes": "Carbon-Fiber shell",
+      "condition": "excellent",
+      "image": "./images/404.jpg",
+      "description": "Discontinued Snare Drum featuring a carbon-fiber shell. Features an aggresive snare response and sounds almost like a marching snare drum.",
+      "price": {
+        "forSale": "No",
+        "salePrice": 500,
+        "forRent": "Yes",
+        "rentSingleDay": 25,
+        "rentPerMonth": 75
+      }
+    },
+    {
+      "id": 2,
+      "category": "Drums",
+      "name": "Snare Drum",
+      "brand": "Pearl",
+      "model": "Philharmonic",
+      "size": "14x5\"",
+      "color": "Maple",
+      "notes": "Replaced coil wire with guitar string",
+      "condition": "excellent",
+      "description": "This Pearl Philharmonic Concert Snare Drum features an 8-ply 7.2mm 100% Maple shell delivering the power to be heard, with a dark, full tonal response that has become the preferred sound of orchestras and artists around the world. The drum is outfitted with a SR505 Triad Silent Strainer and customized wrap around snare assemblies. The hardware configuration includes the nickel plated strainer, classic tube lugs, with MasterCast Die-Cast hoops with a nickel finish. - from steveweissmusic.com",
+      "image": "./images/pearl-phil-snare.jpg",
+      "price": {
+        "forSale": "No",
+        "salePrice": 500,
+        "forRent": "Yes",
+        "rentSingleDay": 25,
+        "rentPerMonth": 75
+      }
+    },
+    {
+      "id": 3,
+      "category": "Cymbals",
+      "name": "Hand Cymbals",
+      "brand": "Sabian",
+      "model": "Artisan Med-Heavy",
+      "size": "18\"",
+      "color": "N/A",
+      "notes": "Medium Heavy",
+      "condition": "excellent",
+      "description": "With a heavier weight, this pairing is more articulate and focused, providing a longer sustain.",
+      "image": "./images/404.jpg",
+      "price": {
+        "forSale": "Yes",
+        "salePrice": 400,
+        "forRent": "Yes",
+        "rentSingleDay": 20,
+        "rentPerMonth": 60
+      }
+    },
+    {
+      "id": 4,
+      "category": "Accessories",
+      "name": "Tambourine",
+      "brand": "Black Swamp",
+      "model": "German Silver - Calf Head",
+      "size": "10\"",
+      "color": "N/A",
+      "notes": "Replaced head",
+      "condition": "good",
+      "description": "Black Swamp 10\" Double Row Tambourine with German Silver Jingles is a good general purpose tambourine. Each tambourine jingle is hand-hammered and custom fitted to each tambourine for a full and dynamically versatile sound. Each Black Swamp tambourine has a distinctive timbre, allowing players to always have the right sound at their fingertips for any musical situation. The solid, steam-bent Ash shell, which is stained, lacquered, and polished to display the natural beauty of the wood. Solid wood shells enable Black Swamp tambourines to project with great clarity at every dynamic. Captive jingle pins are mounted from the top of the tambourine shell, guaranteeing that jingles can never fall out. Dual-size jingle slots make seamless shake rolls easy. - from steveweissmusic",
+      "image": "./images/backswamptambo-gsilver.webp",
+      "price": {
+        "forSale": "Yes",
+        "salePrice": 80,
+        "forRent": "Yes",
+        "rentSingleDay": 15,
+        "rentPerMonth": 45
+      }
+    },
+    {
+      "id": 5,
+      "category": "Accessories",
+      "name": "Triangle",
+      "brand": "Alan Abel",
+      "model": "Symphonic",
+      "size": "6\"",
+      "color": "N/A",
+      "notes": "",
+      "condition": "excellent",
+      "description": "The Alan Abel 6\" Symphonic Triangle has a crisp, clean attack, and beautiful overtones. The Symphonic Triangle is perfect for all around playing.",
+      "image": "./images/abel-triangle.jpg",
+      "price": {
+        "forSale": "Yes",
+        "salePrice": 75,
+        "forRent": "Yes",
+        "rentSingleDay": 10,
+        "rentPerMonth": 40
+      }
+    },
+    [
+      {
+        "name": "w",
+        "brand": "w",
+        "model": "w",
+        "size": "3",
+        "color": "w",
+        "description": "w",
+        "image": "https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/26745_55960_popup.jpg"
+      }
     ]
+  ]
 }

@@ -37,8 +37,8 @@ function getPercData(){
     .then(res=>res.json())
     .then(percInvData=>{
       makeCopyOfData(percInvData);
-      
     })
+    .catch(error=>console.log(error))
   }
 
 //make a copy of all the data  
@@ -84,7 +84,7 @@ function handleForm(e){
     image: e.target.newImage.value,
   }
   renderPercItem([newPercObj]);
-  // activatePost([newPercObj]);
+  saveNewInst([newPercObj]);
 }
 
 
@@ -119,8 +119,19 @@ function renderPercItem(array){
 
         percInstCard.append(instName, instBrand, instModel, instSize, instColor, instDesc, instImg)
         percInstContainer.append(percInstCard)
-  
     })
+  }
 
-    
+  function saveNewInst(array){
+    fetch('http://localhost:3000/percussionInstruments', {
+      method: "POST",
+      headers: {
+        "Content-type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify(array)
+    })
+    .then(res=>res.json())
+    .then(updatedData=>console.log(updatedData))
+    .catch(error=>console.log(error))
   }
