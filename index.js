@@ -21,7 +21,7 @@ clearAllBtn.addEventListener('click', function (e){
 const newInstForm = document.querySelector('.perc-form');
 newInstForm.addEventListener('submit', function (e){
   e.preventDefault();
-  handleForm();
+  handleForm(e);
 })
 
 
@@ -73,10 +73,18 @@ function handleClearAll(){
   }
 }
 
-function handleForm(){
+function handleForm(e){
   let newPercObj = {
-    name: e.target.name.value,
+    name: e.target.newName.value,
+    brand: e.target.newBrand.value,
+    model: e.target.newModel.value,
+    size: e.target.newSize.value,
+    color: e.target.newColor.value,
+    description: e.target.newDesc.value,
+    image: e.target.newImage.value,
   }
+  renderPercItem([newPercObj]);
+  // activatePost([newPercObj]);
 }
 
 
