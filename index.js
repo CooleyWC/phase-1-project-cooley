@@ -6,9 +6,16 @@ const displayAllBtn = document.getElementById('displayAllBtn');
 displayAllBtn.addEventListener('click', function (e){
   handleDisplayAllBtn(copyOfPercData)
 });
+
+const dropDownMenu = document.querySelector('.instrument-dropdown');
+dropDownMenu.addEventListener('change', function (e){
+  const selectedCategory = dropDownMenu.value.toLowerCase();
+  handleDropDown(copyOfPercData, selectedCategory);
+})
+
 const clearAllBtn = document.getElementById('clearAllBtn');
 clearAllBtn.addEventListener('click', function (e){
-  handleClearAllBtn();
+  handleClearAll(copyOfPercData);
 });
 
 
@@ -37,11 +44,24 @@ function makeCopyOfData(percInvData){
 
 //display All Function
 function handleDisplayAllBtn(array){
+  handleClearAll();
   renderPercItem(array)
 }
 
+//drownDown Function
+function handleDropDown(array, category){
+  handleClearAll();
+  const selectedPercItems = array.filter((element)=>{
+    return element.category.toLowerCase() === category;
+  })
+  console.log(selectedPercItems);
+  renderPercItem(selectedPercItems);
+};
+
+
+
 //clear All Function
-function handleClearAllBtn(){
+function handleClearAll(){
   let cardsOnPage = document.querySelectorAll('.card');
   for(let i = 0; i<cardsOnPage.length; i++){
     let element = cardsOnPage[i];

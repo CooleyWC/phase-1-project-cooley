@@ -2,7 +2,7 @@
     "percussionInstruments": [
         {
             "id": 1,
-            "category": "Orchestral",
+            "category": "Drums",
             "name": "Snare Drum",
             "brand": "Black Swamp",
             "model": "Carbon-Fiber",
@@ -22,7 +22,7 @@
         },
         {
             "id": 2,
-            "category": "Orchestral",
+            "category": "Drums",
             "name": "Snare Drum",
             "brand": "Pearl",
             "model": "Philharmonic",
@@ -42,7 +42,7 @@
         },
         {
             "id": 3,
-            "category": "Orchestral",
+            "category": "Cymbals",
             "name": "Hand Cymbals",
             "brand": "Sabian",
             "model": "Artisan Med-Heavy",
@@ -62,7 +62,7 @@
         },
         {
             "id": 4,
-            "category": "Orchestral",
+            "category": "Accessories",
             "name": "Tambourine",
             "brand": "Black Swamp",
             "model": "German Silver - Calf Head",
@@ -82,7 +82,7 @@
         },
         {
             "id": 5,
-            "category": "Orchestral",
+            "category": "Accessories",
             "name": "Triangle",
             "brand": "Alan Abel",
             "model": "Symphonic",
