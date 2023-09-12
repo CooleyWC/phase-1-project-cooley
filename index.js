@@ -18,6 +18,12 @@ clearAllBtn.addEventListener('click', function (e){
   handleClearAll(copyOfPercData);
 });
 
+const newInstForm = document.querySelector('.perc-form');
+newInstForm.addEventListener('submit', function (e){
+  e.preventDefault();
+  handleForm();
+})
+
 
 //fetch - get data from the server
 function getPercData(){
@@ -58,8 +64,6 @@ function handleDropDown(array, category){
   renderPercItem(selectedPercItems);
 };
 
-
-
 //clear All Function
 function handleClearAll(){
   let cardsOnPage = document.querySelectorAll('.card');
@@ -68,6 +72,13 @@ function handleClearAll(){
     element.remove();
   }
 }
+
+function handleForm(){
+  let newPercObj = {
+    name: e.target.name.value,
+  }
+}
+
 
 //render items to page
 function renderPercItem(array){

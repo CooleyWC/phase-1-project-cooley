@@ -34,3 +34,8 @@ input {
 label {
     display: block;
 }
+
+.submitBtn {
+    height: 50px;
+    width: 725px;
+}
