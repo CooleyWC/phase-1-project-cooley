@@ -5,7 +5,7 @@
     border-radius: 10px;
 }
 
-#displayAllBtn, #dropDownContainer, #clearAllBtn, #categorySelect {
+#displayAllBtn, #dropDownContainer, #clearAllBtn, #categorySelectLabel {
     margin: 5px 5px 5px 0;
 }
 
@@ -30,7 +30,9 @@
 
 .bannerTitle {
     text-align: center;
+    font-weight: lighter;
     padding: 10px;
+    font-size: 45px;
 }
 
 input {
@@ -51,10 +53,11 @@ label {
     width: 200px;
 }
 
-.bannerTitle {
+.displayTitle, .formTitle, label, p, .bannerTitle {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 
-.displayTitle, .formTitle, label, p {
-    font-family: Arial, Helvetica, sans-serif;
+.displayTitle, .formTitle {
+    font-size: 30px;
 }
