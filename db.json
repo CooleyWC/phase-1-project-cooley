@@ -54,39 +54,6 @@
       "color": "N/A",
       "description": "The Alan Abel 6\" Symphonic Triangle has a crisp, clean attack, and beautiful overtones. The Symphonic Triangle is perfect for all around playing.",
       "image": "./images/abel-triangle.jpg"
-    },
-    {
-      "id": 6,
-      "name": "toms",
-      "category": "drums",
-      "brand": "yamaha",
-      "model": "concert",
-      "size": "10",
-      "color": "red",
-      "description": "concert toms",
-      "image": "https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/27056_26532_popup.jpg"
-    },
-    {
-      "id": 7,
-      "name": "toms",
-      "category": "drums",
-      "brand": "yamaha",
-      "model": "concert",
-      "size": "10",
-      "color": "red",
-      "description": "toms",
-      "image": "https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/27056_26532_popup.jpg"
-    },
-    {
-      "id": 8,
-      "name": "toms",
-      "category": "drums",
-      "brand": "yamaha",
-      "model": "concert",
-      "size": "15",
-      "color": "red",
-      "description": "drums",
-      "image": "https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/27056_26532_popup.jpg"
     }
   ]
 }

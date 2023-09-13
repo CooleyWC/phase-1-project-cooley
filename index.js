@@ -3,23 +3,23 @@ getPercData();
 const percInstContainer = document.getElementById('instrument-container');
 const copyOfPercData = [];
 const displayAllBtn = document.getElementById('displayAllBtn');
-displayAllBtn.addEventListener('click', function (e){
+displayAllBtn.addEventListener('click', function () {
   handleDisplayAllBtn(copyOfPercData)
 });
 
 const dropDownMenu = document.querySelector('.instrument-dropdown');
-dropDownMenu.addEventListener('change', function (e){
+dropDownMenu.addEventListener('change', function () {
   const selectedCategory = dropDownMenu.value.toLowerCase();
   handleDropDown(copyOfPercData, selectedCategory);
 })
 
 const clearAllBtn = document.getElementById('clearAllBtn');
-clearAllBtn.addEventListener('click', function (e){
+clearAllBtn.addEventListener('click', function () {
   handleClearAll(copyOfPercData);
 });
 
 const newInstForm = document.querySelector('.perc-form');
-newInstForm.addEventListener('submit', function (e){
+newInstForm.addEventListener('submit', function (e) {
   e.preventDefault();
   handleForm(e);
 })
