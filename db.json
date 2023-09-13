@@ -41,7 +41,7 @@
       "model": "German Silver - Calf Head",
       "size": "10\"",
       "color": "N/A",
-      "description": "Black Swamp 10\" Double Row Tambourine with German Silver Jingles is a good general purpose tambourine. Each tambourine jingle is hand-hammered and custom fitted to each tambourine for a full and dynamically versatile sound. Each Black Swamp tambourine has a distinctive timbre, allowing players to always have the right sound at their fingertips for any musical situation. The solid, steam-bent Ash shell, which is stained, lacquered, and polished to display the natural beauty of the wood. Solid wood shells enable Black Swamp tambourines to project with great clarity at every dynamic. Captive jingle pins are mounted from the top of the tambourine shell, guaranteeing that jingles can never fall out. Dual-size jingle slots make seamless shake rolls easy. - from steveweissmusic",
+      "description": "Black Swamp 10\" Double Row Tambourine with German Silver Jingles is a good general purpose tambourine. Each tambourine jingle is hand-hammered and custom fitted to each tambourine for a full and dynamically versatile sound. Each Black Swamp tambourine has a distinctive timbre, allowing players to always have the right sound at their fingertips for any musical situation. The solid, steam-bent Ash shell, which is stained, lacquered, and polished to display the natural beauty of the wood. Solid wood shells enable Black Swamp tambourines to project with great clarity at every dynamic. Captive jingle pins are mounted from the top of the tambourine shell, guaranteeing that jingles can never fall out. Dual-size jingle slots make seamless shake rolls easy.",
       "image": "./images/backswamptambo-gsilver.webp"
     },
     {
@@ -57,17 +57,6 @@
     },
     {
       "id": 6,
-      "name": "Timpani",
-      "category": "drums",
-      "brand": "Adams",
-      "model": "Copper",
-      "size": "4 drum",
-      "color": "copper",
-      "description": "cool timpani",
-      "image": "https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/1100819_3945_popup.jpg"
-    },
-    {
-      "id": 7,
       "name": "Timpani",
       "category": "drums",
       "brand": "Adams",
