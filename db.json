@@ -8,7 +8,7 @@
       "model": "Carbon-Fiber",
       "size": "14x6\"",
       "color": "Black",
-      "image": "./images/404.jpg",
+      "image": "./images/blackswampsnare.jpeg",
       "description": "Discontinued Snare Drum featuring a carbon-fiber shell. Features an aggresive snare response and sounds almost like a marching snare drum."
     },
     {
@@ -31,7 +31,7 @@
       "size": "18\"",
       "color": "N/A",
       "description": "With a heavier weight, this pairing is more articulate and focused, providing a longer sustain.",
-      "image": "./images/404.jpg"
+      "image": "./images/artisancymbals.jpeg"
     },
     {
       "id": 4,
