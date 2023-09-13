@@ -1,4 +1,3 @@
-
 getPercData();
 const percInstContainer = document.getElementById('instrument-container');
 const copyOfPercData = [];
@@ -76,7 +75,7 @@ function handleClearAll(){
 function handleForm(e){
 
   let lastPercObj = copyOfPercData[copyOfPercData.length -1];
-  let lastPercObjId = lastPercObj.id
+  let lastPercObjId = lastPercObj.id;
   let newId = lastPercObjId + 1;
 
   let newPercObj = {
@@ -93,8 +92,7 @@ function handleForm(e){
   renderPercItem([newPercObj]);
   saveNewInst(newPercObj);
   copyOfPercData.push(newPercObj);
-}
-
+};
 
 
 function renderPercItem(array){
@@ -128,10 +126,10 @@ function renderPercItem(array){
         instImg.setAttribute('class', 'cardImg');
         instImg.src = `${element.image}`;
 
-        percInstCard.append(instName, instCategory, instBrand, instModel, instSize, instColor, instDesc, instImg)
-        percInstContainer.append(percInstCard)
+        percInstCard.append(instName, instCategory, instBrand, instModel, instSize, instColor, instDesc, instImg);
+        percInstContainer.append(percInstCard);
     })
-  }
+  };
 
 
   function saveNewInst(newPercObj){
@@ -146,4 +144,4 @@ function renderPercItem(array){
     .then(res=>res.json())
     .then(updatedData=>console.log(updatedData))
     .catch(error=>console.log('Error:', error))
-  }
+  };

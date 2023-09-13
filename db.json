@@ -54,6 +54,28 @@
       "color": "N/A",
       "description": "The Alan Abel 6\" Symphonic Triangle has a crisp, clean attack, and beautiful overtones. The Symphonic Triangle is perfect for all around playing.",
       "image": "./images/abel-triangle.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Timpani",
+      "category": "drums",
+      "brand": "Adams",
+      "model": "Copper",
+      "size": "4 drum",
+      "color": "copper",
+      "description": "cool timpani",
+      "image": "https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/1100819_3945_popup.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Timpani",
+      "category": "drums",
+      "brand": "Adams",
+      "model": "Copper",
+      "size": "4 drum",
+      "color": "copper",
+      "description": "cool timpani",
+      "image": "https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/1100819_3945_popup.jpg"
     }
   ]
 }
