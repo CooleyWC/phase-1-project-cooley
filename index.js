@@ -10,7 +10,7 @@ const dropDownMenu = document.querySelector('.instrument-dropdown');
 dropDownMenu.addEventListener('change', function () {
   const selectedCategory = dropDownMenu.value.toLowerCase();
   handleDropDown(copyOfPercData, selectedCategory);
-})
+});
 
 const clearAllBtn = document.getElementById('clearAllBtn');
 clearAllBtn.addEventListener('click', function () {
@@ -21,7 +21,7 @@ const newInstForm = document.querySelector('.perc-form');
 newInstForm.addEventListener('submit', function (e) {
   e.preventDefault();
   handleForm(e);
-})
+});
 
 
 function getPercData(){
@@ -37,20 +37,20 @@ function getPercData(){
       makeCopyOfData(percInvData);
     })
     .catch(error=>console.log('Error:', error))
-  }
+  };
 
 
 function makeCopyOfData(percInvData){
   percInvData.forEach((element)=>{
     copyOfPercData.push(element);
   })
-}
+};
 
 
 function handleDisplayAllBtn(array){
   handleClearAll();
   renderPercItem(array);
-}
+};
 
 
 function handleDropDown(array, category){
@@ -69,7 +69,7 @@ function handleClearAll(){
     let element = cardsOnPage[i];
     element.remove();
   }
-}
+};
 
 
 function handleForm(e){
@@ -88,7 +88,7 @@ function handleForm(e){
     color: e.target.newColor.value,
     description: e.target.newDesc.value,
     image: e.target.newImage.value,
-  }
+  };
   renderPercItem([newPercObj]);
   saveNewInst(newPercObj);
   copyOfPercData.push(newPercObj);
