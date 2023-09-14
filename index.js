@@ -6,9 +6,9 @@ displayAllBtn.addEventListener('click', function () {
   handleDisplayAllBtn(copyOfPercData)
 });
 
-const dropDownMenu = document.querySelector('.instrument-dropdown');
-dropDownMenu.addEventListener('change', function () {
-  const selectedCategory = dropDownMenu.value.toLowerCase();
+const dropdownMenu = document.querySelector('.instrument-dropdown');
+dropdownMenu.addEventListener('change', function () {
+  const selectedCategory = dropdownMenu.value.toLowerCase();
   handleDropDown(copyOfPercData, selectedCategory);
 });
 
@@ -55,7 +55,6 @@ function handleDisplayAllBtn(array){
 
 function handleDropDown(array, category){
   handleClearAll();
-  console.log(array);
   const selectedPercItems = array.filter((element)=>{
     return element.category.toLowerCase() === category;
   })
