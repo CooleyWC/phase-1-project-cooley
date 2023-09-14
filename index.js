@@ -9,7 +9,7 @@ displayAllBtn.addEventListener('click', function () {
 const dropdownMenu = document.querySelector('.instrument-dropdown');
 dropdownMenu.addEventListener('change', function () {
   const selectedCategory = dropdownMenu.value.toLowerCase();
-  handleDropDown(copyOfPercData, selectedCategory);
+  handleDropdown(copyOfPercData, selectedCategory);
 });
 
 const clearAllBtn = document.getElementById('clearAllBtn');
@@ -53,7 +53,7 @@ function handleDisplayAllBtn(array){
 };
 
 
-function handleDropDown(array, category){
+function handleDropdown(array, category){
   handleClearAll();
   const selectedPercItems = array.filter((element)=>{
     return element.category.toLowerCase() === category;
