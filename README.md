@@ -2,9 +2,9 @@
 
 ## Description
 
-This application allows the user to view all percussion instruments in Cooley's inventory. The instruments may also be filtered by category (Drums, Cymbals, Accessories). There is a button that clears all the instruments from the page.
+This application allows the user to view all percussion instruments in Will Cooley's inventory. The instruments may also be filtered by category (Drums, Cymbals, Accessories). There is a button that clears all the instruments from the page.
 
-There is a form that allows the user to add a new instrument to the inventory. The instrument with all it's attributes will be saved to the database and also be viewable on the webpage.
+There is a form that allows the user to add a new instrument to the inventory. The instrument with all its attributes will be saved to the database and also be viewable on the webpage.
 
 ## Visuals
 
